@@ -1,7 +1,7 @@
 window.VALENTINE_CONFIG = {
     // Grunnleggende informasjon
-    valentineName: "Mari ❤️",                    // Din valentines navn
-    pageTitle: "Vil du være min kjæreste? 💝", // Nettleserfane tittel
+    valentineName: "Mari",                    // Din valentines navn
+    pageTitle: "Vil du være min valentine? 💝", // Nettleserfane tittel
 
     // Flytende bakgrunnselementer
     floatingEmojis: {
@@ -23,7 +23,7 @@ window.VALENTINE_CONFIG = {
             nextBtn: "Neste ❤️"                         // Neste-knapp tekst
         },
         third: {
-            text: "Vil du være min kjæreste...?",      // Siste spørsmål
+            text: "Vil du være min valentine...?",      // Siste spørsmål
             yesBtn: "Ja!",                            // Ja-knapp tekst
             noBtn: "Nei"                                // Nei-knapp tekst
         }
@@ -62,9 +62,9 @@ window.VALENTINE_CONFIG = {
 
     // Musikkinnstillinger
     music: {
-        enabled: true, // Musikkfunksjon er aktivert
+        enabled: false, // Musikkfunksjon er deaktivert - last opp en MP3-fil til Cloudinary og erstatt musicUrl for å aktivere
         autoplay: true, // Prøv å spille automatisk (merk: noen nettlesere kan blokkere dette)
-        musicUrl: "https://open.spotify.com/track/3V39wWAqq0Hy4BkC2lBSjS?si=db96ca42d6264a36", // Tate McRae - Revolving Door
+        musicUrl: "https://open.spotify.com/track/3V39wWAqq0Hy4BkC2lBSjS?si=db96ca42d6264a36", // Erstatt denne Spotify-lenken med en faktisk .mp3 fil URL fra Cloudinary
         startText: "🎵 Spill musikk", // Knappetekst for å starte musikk
         stopText: "🔇 Stopp musikk", // Knappetekst for å stoppe musikk
         volume: 0.5 // Volumnivå (0.0 til 1.0)
