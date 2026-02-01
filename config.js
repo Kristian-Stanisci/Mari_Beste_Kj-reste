@@ -1,69 +1,72 @@
-valentineName: "China"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+window.VALENTINE_CONFIG = {
+    // Grunnleggende informasjon
+    valentineName: "Mari",                    // Din valentines navn
+    pageTitle: "Vil du være min kjæreste? 💝", // Nettleserfane tittel
 
-// Floating Background Elements
-floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
-    bears: ['😻', '🦭']                       // Bear emojis in background
-}
+    // Flytende bakgrunnselementer
+    floatingEmojis: {
+        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Hjerte-emojier i bakgrunnen
+        bears: ['😻', '🦭']                       // Bjørne-emojier i bakgrunnen
+    },
 
-// Questions and Buttons
-questions: {
-    first: {
-        text: "Do you like me?",                   // First question
-        yesBtn: "Yes",                             // Yes button text
-        noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+    // Spørsmål og knapper
+    questions: {
+        first: {
+            text: "Liker du meg?",                   // Første spørsmål
+            yesBtn: "Ja",                             // Ja-knapp tekst
+            noBtn: "Nei",                               // Nei-knapp tekst
+            secretAnswer: "Jeg liker deg ikke, jeg elsker deg! ❤️"  // Skjult melding
+        },
+        second: {
+            text: "Hvor mye elsker du meg?",          // Andre spørsmål
+            startText: "Så mye!",                   // Tekst før prosentandel
+            nextBtn: "Neste ❤️"                         // Neste-knapp tekst
+        },
+        third: {
+            text: "Vil du være min kjæreste...?",      // Siste spørsmål
+            yesBtn: "Ja!",                            // Ja-knapp tekst
+            noBtn: "Nei"                                // Nei-knapp tekst
+        }
     },
-    second: {
-        text: "How much do you love me?",          // Second question
-        startText: "This much!",                   // Text before percentage
-        nextBtn: "Next ❤️"                         // Next button text
+
+    // Kjærlighetsmåler meldinger
+    loveMessages: {
+        extreme: "WOOOOW Du elsker meg så mye?? 🥰🚀💝",  // Vises over 5000%
+        high: "Til uendeligheten og lenger! 🚀💝",              // Vises over 1000%
+        normal: "Og lenger! 🥰"                           // Vises over 100%
     },
-    third: {
-        text: "Will you be my Valentine...?",      // Final question
-        yesBtn: "Yes!",                            // Yes button text
-        noBtn: "No"                                // No button text
+
+    // Slutt-feiring
+    celebration: {
+        title: "Hurra! Jeg er den heldigste personen...",     // Feiringstittel
+        message: "Nå kan du komme og hente gaven din...",          // Feiringsmelding
+        emojis: "🎁💖🤗💝💋❤️💕"                        // Feirings-emojier
+    },
+
+    // Nettside farger
+    colors: {
+        backgroundStart: "#ffafbd",      // Bakgrunns gradient start
+        backgroundEnd: "#ffc3a0",        // Bakgrunns gradient slutt
+        buttonBackground: "#ff6b6b",     // Knappefarge
+        buttonHover: "#ff8787",          // Knapp hover-farge
+        textColor: "#ff4757"            // Tekstfarge
+    },
+
+    // Animasjonsinnstillinger
+    animations: {
+        floatDuration: "15s",           // Hvor lenge hjerter flyter (10-20s)
+        floatDistance: "50px",          // Sideveis bevegelse (30-70px)
+        bounceSpeed: "0.5s",            // Sprett animasjonshastighet (0.3-0.7s)
+        heartExplosionSize: 1.5         // Endelig hjerte-eksplosjonsstørrelse (1.2-2.0)
+    },
+
+    // Musikkinnstillinger
+    music: {
+        enabled: true, // Musikkfunksjon er aktivert
+        autoplay: true, // Prøv å spille automatisk (merk: noen nettlesere kan blokkere dette)
+        musicUrl: "https://open.spotify.com/track/254bXAqt3zP6P50BdQvEsq?si=76d147c825eb4789", // Lim inn musikk-URL her
+        startText: "🎵 Spill musikk", // Knappetekst for å starte musikk
+        stopText: "🔇 Stopp musikk", // Knappetekst for å stoppe musikk
+        volume: 0.5 // Volumnivå (0.0 til 1.0)
     }
-}
-
-// Love Meter Messages
-loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
-}
-
-// Final Celebration
-celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
-    message: "Now come get your gift...",          // Celebration message
-    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
-}
-
-// Website Colors
-colors: {
-    backgroundStart: "#ffafbd",      // Background gradient start
-    backgroundEnd: "#ffc3a0",        // Background gradient end
-    buttonBackground: "#ff6b6b",     // Button color
-    buttonHover: "#ff8787",          // Button hover color
-    textColor: "#ff4757"            // Text color
-}
-
-// Animation Settings
-animations: {
-    floatDuration: "15s",           // How long hearts float (10-20s)
-    floatDistance: "50px",          // Sideways movement (30-70px)
-    bounceSpeed: "0.5s",            // Bounce animation speed (0.3-0.7s)
-    heartExplosionSize: 1.5         // Final heart explosion size (1.2-2.0)
-}
-
-// Music Settings
-music: {
-    enabled: true, // Music feature is enabled
-    autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "https://open.spotify.com/track/254bXAqt3zP6P50BdQvEsq?si=76d147c825eb4789", // Paste your music URL here
-    startText: "🎵 Play Music", // Button text to start music
-    stopText: "🔇 Stop Music", // Button text to stop music
-    volume: 0.5 // Volume level (0.0 to 1.0)
-}
+};
