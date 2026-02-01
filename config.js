@@ -1,6 +1,6 @@
 window.VALENTINE_CONFIG = {
     // Grunnleggende informasjon
-    valentineName: "Mari",                    // Din valentines navn
+    valentineName: "Mari ❤️",                    // Din valentines navn
     pageTitle: "Vil du være min kjæreste? 💝", // Nettleserfane tittel
 
     // Flytende bakgrunnselementer
@@ -64,7 +64,7 @@ window.VALENTINE_CONFIG = {
     music: {
         enabled: true, // Musikkfunksjon er aktivert
         autoplay: true, // Prøv å spille automatisk (merk: noen nettlesere kan blokkere dette)
-        musicUrl: "https://open.spotify.com/track/254bXAqt3zP6P50BdQvEsq?si=76d147c825eb4789", // Lim inn musikk-URL her
+        musicUrl: "https://open.spotify.com/track/3V39wWAqq0Hy4BkC2lBSjS?si=db96ca42d6264a36", // Tate McRae - Revolving Door
         startText: "🎵 Spill musikk", // Knappetekst for å starte musikk
         stopText: "🔇 Stopp musikk", // Knappetekst for å stoppe musikk
         volume: 0.5 // Volumnivå (0.0 til 1.0)
