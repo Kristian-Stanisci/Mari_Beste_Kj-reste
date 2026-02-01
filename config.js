@@ -64,7 +64,7 @@ window.VALENTINE_CONFIG = {
     music: {
         enabled: false, // Musikkfunksjon er deaktivert - last opp en MP3-fil til Cloudinary og erstatt musicUrl for å aktivere
         autoplay: true, // Prøv å spille automatisk (merk: noen nettlesere kan blokkere dette)
-        musicUrl: "https://open.spotify.com/track/3V39wWAqq0Hy4BkC2lBSjS?si=db96ca42d6264a36", // Erstatt denne Spotify-lenken med en faktisk .mp3 fil URL fra Cloudinary
+        musicUrl: "", // Last opp en .mp3 fil til Cloudinary og sett URL-en her, f.eks: "https://res.cloudinary.com/YOUR_CLOUD_NAME/video/upload/YOUR_FILE.mp3"
         startText: "🎵 Spill musikk", // Knappetekst for å starte musikk
         stopText: "🔇 Stopp musikk", // Knappetekst for å stoppe musikk
         volume: 0.5 // Volumnivå (0.0 til 1.0)
