@@ -1,6 +1,6 @@
 window.VALENTINE_CONFIG = {
     // Grunnleggende informasjon
-    valentineName: "Mari",                    // Din valentines navn
+    valentineName: "Mari❤️❤️❤️",                    // Din valentines navn
     pageTitle: "Vil du være min valentine? 💝", // Nettleserfane tittel
 
     // Flytende bakgrunnselementer
@@ -23,7 +23,7 @@ window.VALENTINE_CONFIG = {
             nextBtn: "Neste ❤️"                         // Neste-knapp tekst
         },
         third: {
-            text: "Vil du være min valentine...?",      // Siste spørsmål
+            text: "Vil du være min valentine Mari?❤️ Du har egt ikke så my valg, vil bare ha dæ",      // Siste spørsmål
             yesBtn: "Ja!",                            // Ja-knapp tekst
             noBtn: "Nei"                                // Nei-knapp tekst
         }
@@ -31,15 +31,15 @@ window.VALENTINE_CONFIG = {
 
     // Kjærlighetsmåler meldinger
     loveMessages: {
-        extreme: "WOOOOW Du elsker meg så mye?? 🥰🚀💝",  // Vises over 5000%
-        high: "Til uendeligheten og lenger! 🚀💝",              // Vises over 1000%
+        extreme: "Oidaaaa. Du elske mæ så myyyyyy?? 🥰🚀💝",  // Vises over 5000%
+        high: "Due så god Mari, ord kan ikke beskriv kor takknemmelig æe for dæ",              // Vises over 1000%
         normal: "Og lenger! 🥰"                           // Vises over 100%
     },
 
     // Slutt-feiring
     celebration: {
-        title: "Hurra! Jeg er den heldigste personen...",     // Feiringstittel
-        message: "Nå kan du komme og hente gaven din...",          // Feiringsmelding
+        title: " æe er den heldigste gutten i hele verden. ",     // Feiringstittel
+        message: "Glede mæ te å ta dæ med ut å spis når vi får tid❤️ Kor vi ska e hemmelig. Du må bare se bra ut, som du alltid gjør",          // Feiringsmelding
         emojis: "🎁💖🤗💝💋❤️💕"                        // Feirings-emojier
     },
 
